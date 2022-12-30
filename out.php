@@ -55,7 +55,7 @@
 
             <?php
 require_once '../datapass.php';
-header( "Refresh:30;url=http://new-worled.eb2a.com/out/out.php"); 
+header( "Refresh:30;url=http://new-worled.eb2a.com/orderTraker/out.php"); 
 
 // COUNT 
 $done = $databass->prepare('SELECT * FROM `shop` WHERE  `STATA`="IN LAP"');
